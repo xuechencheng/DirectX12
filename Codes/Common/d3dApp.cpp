@@ -22,7 +22,9 @@ D3DApp* D3DApp::GetApp()
 {
     return mApp;
 }
-
+/// <summary>
+/// Done
+/// </summary>
 D3DApp::D3DApp(HINSTANCE hInstance) : mhAppInst(hInstance)
 {
     // Only one D3DApp can be constructed.
